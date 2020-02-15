@@ -23,6 +23,7 @@ npm-debug.log*
 coverage/
 www/
 node_modules/
+build/
 tmp/
 temp/
 platforms/
