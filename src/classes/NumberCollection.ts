@@ -1,7 +1,6 @@
 import {Sorter} from "./Sorter";
-import {Sortable} from "../interfaces/Sortable";
 
-export class NumberCollection extends Sorter implements Sortable {
+export class NumberCollection extends Sorter {
   data: number[];
 
   constructor(data: number[]) {

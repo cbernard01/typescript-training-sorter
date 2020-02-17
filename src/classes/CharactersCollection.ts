@@ -1,7 +1,6 @@
 import {Sorter} from "./Sorter";
-import {Sortable} from "../interfaces/Sortable";
 
-export class CharactersCollection extends Sorter implements Sortable {
+export class CharactersCollection extends Sorter{
   data: string;
 
   constructor(data: string) {
